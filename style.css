@@ -15,7 +15,8 @@ p {
 }
 
 button {
-    margin: 2vw;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
     color: #001437;
     background-color: #7898fb;
 }
@@ -43,4 +44,13 @@ a {
     text-decoration: none;
     color: #b8fb3c;
     padding: 0 2vw;
+}
+
+#news {
+    border-color: #b8fb3c;
+    border-style: dotted;
+    color: white;
+    width: 50vw;
+    border-width: 5px;
+    margin-left: 2vw;
 }
