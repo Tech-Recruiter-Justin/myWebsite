@@ -17,6 +17,7 @@ p {
 button {
     margin-left: 2vw;
     margin-bottom: 2vw;
+    padding: 10px;
     color: #001437;
     background-color: #7898fb;
 }
