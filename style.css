@@ -5,53 +5,61 @@ body {
 }
 
 h1 {
-    margin: 2vw;
     color: #5ce5d5;
+    margin: 3rem;
 }
 
 p {
-    margin: 2vw;
     color: #b8fb3c;
-}
-
-button {
-    margin-left: 2vw;
-    margin-bottom: 2vw;
-    padding: 10px;
-    color: #001437;
-    background-color: #7898fb;
+    margin: 3rem;
 }
 
 nav {
-    width: 100vw;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
     background-color: #7898fb;
-    padding: 1vw;
 }
 
 ul {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
 li {
-    list-style-type: none;
-    margin: 0 2vw;
+    display: inline;
     color: #b8fb3c;
-    font-size: 3vh;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     text-decoration: none;
     color: #b8fb3c;
-    padding: 0 2vw;
 }
 
-#news {
-    border-color: #b8fb3c;
-    border-style: dotted;
-    color: white;
-    width: 50vw;
-    border-width: 5px;
-    margin-left: 2vw;
+#JC {
+    margin: 0 3rem;
+}
+
+#contact {
+    margin: 0 3rem;
+}
+
+@media (max-width: 1000px){
+    nav {
+        flex-direction: column;
+    }
+    nav, nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul {
+        margin: 0 3rem;
+    }
+    
+    }
 }
