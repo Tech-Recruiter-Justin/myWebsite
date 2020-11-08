@@ -10215,9 +10215,9 @@ body {
 }
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
+  font-size: 2.7rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.6rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -10229,7 +10229,7 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
+    font-size: 3.8rem;
     line-height: 4rem;
   }
 }
@@ -10239,9 +10239,9 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    letter-spacing: 0.6rem;
   }
   .masthead h2 {
     max-width: 30rem;
@@ -10254,7 +10254,7 @@ body {
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .about-section p {
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 .projects-section {
@@ -10285,8 +10285,8 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  padding: 4rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, #000000 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10304,7 +10304,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 0rem;
 }
 .contact-section .card {
   border: 0;
@@ -10341,5 +10341,5 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
