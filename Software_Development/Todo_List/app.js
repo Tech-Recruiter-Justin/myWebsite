@@ -16,13 +16,13 @@ function todolist() {
                 }
                 console.log("**************")
                 newItem = null;
-            } else if (action === "list") {
+            } else if (action.toLowerCase() === "list") {
                 console.log("**************")
                 for (let item of todo) {
                     console.log(`${todo.indexOf(item)}: ${item}`);
                 }
                 console.log("**************")
-            } else if  (action === "delete") {
+            } else if  (action.toLowerCase() === "delete") {
                 removeIndex = prompt("Which item to remove? (input number)")
                 console.log(`${todo[removeIndex]} removed`);
                 todo.splice(removeIndex,1);
@@ -31,7 +31,7 @@ function todolist() {
                     console.log(`${todo.indexOf(item)}: ${item}`);
                 }
                 console.log("**************")
-            } else if (action === "quit") {
+            } else if (action.toLowerCase() === "quit") {
                 console.log("QUIT");
             }
     }
