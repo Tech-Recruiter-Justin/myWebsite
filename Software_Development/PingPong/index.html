@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PingPong Score Counter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+<body>
+    <div class="container" name="board" id="board">
+        <div class="columns">
+            <div class="column"></div>
+            <div class="column is-half">
+                <div class="box">
+                    <img src="pingpong.jpg">
+                    <h1 class="subtitle is-5">Ping Pong Score Keeper</h1>
+                    <section class="score">
+                        <h2 class="title is-1" id="p1Score">0</h2>
+                        <h2 class="title is-1">-</h2>
+                        <h2 class="title is-1" id="p2Score">0</h2>
+                    </section>
+                    <section>
+                        <h3 class="title is-5" id="p1Game">0</h3>
+                        <h3 class="title is-5">to</h3>
+                        <h3 class="title is-5" id="p2Game">0</h3>
+                    </section>
+                    <p>Use the buttons below to keep score.</p>
+                    <section>
+                        <button class="button is-outlined is-info is-light" id="p1Plus" name="p1Plus">P1 +1</button>
+                        <button class="button is-outlined is-warning is-light" id="reset">Start Again</button>
+                        <button class="button is-outlined is-danger is-light" id="p2Plus" name="p2Plus">P2 +1</button>
+                    </section>
+                    <section>
+                        <button class="button is-info is-rounded" id="p1Win">P1 Wins A Round</button>
+                        <button class="button is-danger is-rounded" id="p2Win">P2 Wins A Round</button>
+                    </section>
+                </div>
+            </div>
+            <div class="column"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+h2, h3 {
+    display: inline;
+}
+
+section {
+    text-align: center;
+    margin: 16px;
+}
+
+h1, p {
+    text-align: center;
+}
