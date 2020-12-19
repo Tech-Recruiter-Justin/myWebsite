@@ -10,3 +10,7 @@ section {
 h1, p {
     text-align: center;
 }
+
+body {
+    touch-action: manipulation;
+}
