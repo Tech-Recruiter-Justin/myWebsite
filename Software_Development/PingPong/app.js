@@ -16,6 +16,10 @@ const p2Win = document.querySelector("#p2Win");
 p1Plus.addEventListener('click', function(e){
     p1++;
     p1Score.innerText = p1;
+    p1Score.classList.add('has-text-success');
+    setTimeout(function(){
+        p1Score.classList.remove('has-text-success');
+    },250);
     if (status == 'deuce' && p1 == p2 + 2){
         player1Wins();
     } else if (status == 'normal'){
@@ -30,6 +34,10 @@ p1Plus.addEventListener('click', function(e){
 p2Plus.addEventListener('click', function(e){
     p2++;
     p2Score.innerText = p2;
+    p2Score.classList.add('has-text-success');
+    setTimeout(function(){
+        p2Score.classList.remove('has-text-success');
+    },250);
     if (status == 'deuce' && p2 == p1 + 2){
         player2Wins();
     } else if (status == 'normal'){
@@ -84,6 +92,10 @@ checkStatus = () => {
 player1Wins = () => {
     game1 = game1 + 1;
     p1Game.innerText = game1;
+    p1Game.classList.add('has-text-success');
+    setTimeout(function(){
+        p1Game.classList.remove('has-text-success');
+    },250);
     gameDone();
     checkGame();
 };
@@ -91,6 +103,10 @@ player1Wins = () => {
 player2Wins = () => {
     game2 = game2 + 1;
     p2Game.innerText = game2;
+    p2Game.classList.add('has-text-success');
+    setTimeout(function(){
+        p2Game.classList.remove('has-text-success');
+    },250);
     gameDone();
     checkGame();
 };
